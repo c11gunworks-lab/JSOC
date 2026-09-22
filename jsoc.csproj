@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>3.0.0</Version>
+    <RootNamespace>JSOC</RootNamespace>
+    <AssemblyName>C11-JSOC</AssemblyName>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Path to final mod folder -->
+  <PropertyGroup>
+    <SptModsDir>C:\SPT4.1\SPT_Runtime\user\mods\blackandblue</SptModsDir>
+    <!-- Absolute paths to source folders (all under Resources\) -->
+    <ResourceSourceDir>$(MSBuildProjectDirectory)\Resources</ResourceSourceDir>
+    <DbSourceDir>$(ResourceSourceDir)\db</DbSourceDir>
+    <BundleSourceDir>$(ResourceSourceDir)\bundles</BundleSourceDir>
+    <RigLayoutSourceDir>$(ResourceSourceDir)\db\CustomRigLayouts</RigLayoutSourceDir>
+  </PropertyGroup>
+
+  <!-- Collect files -->
+  <ItemGroup>
+    <DbFiles Include="$(DbSourceDir)\**\*.json" />
+    <BundleRig Include="$(RigLayoutSourceDir)\**\*" Exclude="$(RigLayoutSourceDir)\**\*.json" />
+
+    <BundleFiles Include="$(BundleSourceDir)\**\*" />
+    <BundleManifest Include="$(MSBuildProjectDirectory)\bundles.json" />
+  </ItemGroup>
+
+  <!-- CLEAN before build -->
+  <Target Name="CleanModFolder" BeforeTargets="Build">
+    <Message Text=" Cleaning $(SptModsDir)" Importance="High" />
+    <RemoveDir Directories="$(SptModsDir)" />
+  </Target>
+
+  <!-- Fail loudly if a source folder is missing, instead of copying nothing -->
+  <Target Name="VerifyModSources" BeforeTargets="CopyAllModFiles">
+    <Error Condition="!Exists('$(DbSourceDir)')" Text="DbSourceDir not found: $(DbSourceDir)" />
+    <Error Condition="!Exists('$(BundleSourceDir)')" Text="BundleSourceDir not found: $(BundleSourceDir)" />
+    <Error Condition="!Exists('$(MSBuildProjectDirectory)\bundles.json')" Text="bundles.json not found in $(MSBuildProjectDirectory)" />
+  </Target>
+
+  <!-- COPY after build -->
+  <Target Name="CopyAllModFiles" AfterTargets="Build">
+    <Message Text=" Copying mod files to $(SptModsDir)" Importance="High" />
+    <Message Text="   DbSourceDir     = $(DbSourceDir)" Importance="High" />
+    <Message Text="   DbFiles         = @(DbFiles->Count())" Importance="High" />
+    <Message Text="   BundleRig       = @(BundleRig->Count())" Importance="High" />
+    <Message Text="   BundleFiles     = @(BundleFiles->Count())" Importance="High" />
+
+    <!-- Recreate main folders -->
+    <MakeDir Directories="$(SptModsDir)" />
+
+    <!-- Copy DLL -->
+    <Copy SourceFiles="$(TargetDir)$(ProjectName).dll" DestinationFolder="$(SptModsDir)" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+
+    <!-- Copy DB JSONs -->
+    <Copy SourceFiles="@(DbFiles)" DestinationFiles="@(DbFiles->'$(SptModsDir)\db\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+
+    <!-- Copy Rig Layout Bundles (non-json files DbFiles does not pick up) -->
+    <Copy SourceFiles="@(BundleRig)" DestinationFiles="@(BundleRig->'$(SptModsDir)\db\CustomRigLayouts\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+
+    <!-- Copy Bundles -->
+    <Copy SourceFiles="@(BundleFiles)" DestinationFiles="@(BundleFiles->'$(SptModsDir)\bundles\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+
+    <!-- Copy bundles.json -->
+    <Copy SourceFiles="@(BundleManifest)" DestinationFolder="$(SptModsDir)" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+
+    <Message Text="Copy complete!" Importance="High" />
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="WTT-ServerCommonLib" Version="3.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\..\..\SPT4.1\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

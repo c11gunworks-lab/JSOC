@@ -25,7 +25,7 @@ public class Jsoc(
        }
        await wttServerCommonLib.CustomLocaleService.CreateCustomLocales(assembly);
        await wttServerCommonLib.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
-       log.LogInformation("The JSOC Service Weapon Replacement Program has now begun.");
+       log.LogInformation("The JSOC Service Weapon Replacement Program has now begun");
 
     }
     

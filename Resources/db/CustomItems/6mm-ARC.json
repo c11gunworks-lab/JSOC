@@ -90,7 +90,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "68f300000000000000000001": {
@@ -200,7 +200,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aa0ff5890ac594c32d398": {
@@ -310,7 +310,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aa127b01fd21c7e32d399": {
@@ -420,7 +420,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aa150b7906818a432d39b": {
@@ -530,7 +530,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aacb625a495a1c932d39e": {
@@ -640,7 +640,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aad0560e19c22b532d3a0": {
@@ -750,7 +750,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aad51f6772a956332d3a2": {
@@ -860,7 +860,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aadd3ce3ca7ce2132d3a4": {
@@ -970,7 +970,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a4aae207ef709d8ca32d3a6": {
@@ -1056,7 +1056,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a498e4d056780a59532d370": {
@@ -1142,7 +1142,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a498f36a090900a3b32d374": {
@@ -1228,7 +1228,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a498f916d4b3e3ce732d379": {
@@ -1315,7 +1315,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a498ff8bd9f5dff2532d37c": {
@@ -1402,7 +1402,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a499046af126ce37432d37e": {
@@ -1484,7 +1484,7 @@
     ],
 
     "addtoSecureFilters": false,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a49917dcb6881096b32d386": {
@@ -1531,7 +1531,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 151500,
     "handbookPriceRoubles": 124500,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
@@ -1608,7 +1608,7 @@
     "modSlot": [],
     "fleaPriceRoubles": 1515000,
     "handbookPriceRoubles": 1245000,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [

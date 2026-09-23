@@ -261,7 +261,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -448,7 +448,7 @@
       }
     ],
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "traders": {
       "PEACEKEEPER": {
         "6a2b020541a78c6e384cd537": {
@@ -754,7 +754,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_reciever"
@@ -807,7 +807,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_charge"
@@ -935,7 +935,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1061,7 +1061,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1187,7 +1187,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1313,7 +1313,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1653,7 +1653,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1993,7 +1993,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -2332,7 +2332,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -2422,7 +2422,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_mount_000",
@@ -2524,7 +2524,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_stock"
@@ -2598,7 +2598,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_muzzle"

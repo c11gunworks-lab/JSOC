@@ -261,7 +261,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -698,7 +698,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_reciever"
@@ -751,7 +751,7 @@
     "addtoModSlots": true,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [
       "mod_charge"
@@ -879,7 +879,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1005,7 +1005,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1131,7 +1131,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1257,7 +1257,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1597,7 +1597,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -1937,7 +1937,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {
@@ -2276,7 +2276,7 @@
     "addtoModSlots": false,
     "addtoStaticLootContainers": false,
     "addtoSecureFilters": true,
-    "addtoTraders": true,
+    "addtoTraders": false,
     "addtoInventorySlots": [],
     "modSlot": [],
     "traders": {

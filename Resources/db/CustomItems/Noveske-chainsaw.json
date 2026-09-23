@@ -34,7 +34,7 @@
         "addtoItemBlacklist": false,
         "masteries": false,
         "addWeaponPreset": false,
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
             "PEACEKEEPER": {
                 "6a6663e96d802941437e228e": {
@@ -491,7 +491,7 @@
                 "_encyclopedia": "6a6663f771682cb4807e2290"
             }
         ],
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
             "PEACEKEEPER": {
                 "6a66646d6ba313abd67e2297": {
@@ -1042,7 +1042,7 @@
         "addtoItemBlacklist": false,
         "masteries": false,
         "addWeaponPreset": false,
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
             "PEACEKEEPER": {
                 "6a6664e75af1e101f97e229d": {
@@ -1329,7 +1329,7 @@
         "addtoItemBlacklist": false,
         "masteries": false,
         "addWeaponPreset": false,
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
             "PEACEKEEPER": {
                 "6a6665e859652fa06f7e22a6": {
@@ -1503,7 +1503,7 @@
         "addtoItemBlacklist": false,
         "masteries": false,
         "addWeaponPreset": false,
-        "addtoTraders": true,
+        "addtoTraders": false,
         "traders": {
             "PEACEKEEPER": {
                 "6a666921a0f81c85c47e22aa": {

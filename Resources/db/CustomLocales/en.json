@@ -1,5 +1,5 @@
 {
-  "67f1a2000000000000000100 Name": "Knight's Armament KS-1 5.56x45 assault rifle lower receiver (Black)",
+  "67f1a2000000000000000100 Name": "Knight's Armament KS-1 5.56x45 assault rifle (Black)",
   "67f1a2000000000000000100 ShortName": "KS-1 Black",
   "67f1a2000000000000000100 Description": "Knight's Armament Company developed the KS-1 5.56x45 carbine to set a new standard in assault platforms. Featuring completely ambidextrous, machined-in controls and built specifically around KAC's highly efficient, proprietary mechanics rather than standard AR-15 parts, this receiver serves as the foundation for modern military operations.",
   "67f1a2000000000000000101 Name": "Knight's Armament KS-1 upper receiver assembly (Black)",
@@ -29,7 +29,7 @@
   "67f1a2000000000000000122 Name": "Knight's Armament URX-6 15 inch M-LOK handguard (Black)",
   "67f1a2000000000000000122 ShortName": "URX-6 15\" Blk",
   "67f1a2000000000000000122 Description": "The Knight's Armament URX-6 15-inch free-floating handguard in black. Delivers an extended mounting profile for accessory placement and support-hand control over longer-barreled KS-1 builds, without sacrificing structural rigidity.",
-  "67f1a1000000000000000100 Name": "Knight's Armament KS-1 5.56x45 assault rifle lower receiver (FDE)",
+  "67f1a1000000000000000100 Name": "Knight's Armament KS-1 5.56x45 assault rifle (FDE)",
   "67f1a1000000000000000100 ShortName": "KS-1 FDE",
   "67f1a1000000000000000100 Description": "The custom lower receiver of the Knight's Armament Company KS-1 5.56x45 carbine, finished in Flat Dark Earth (FDE). Engineered with fully ambidextrous, machined-in controls including dual magazine and bolt releases, this frame operates as the core receiver extension host for the premium L403A1 weapon system.",
   "67f1a1000000000000000101 Name": "Knight's Armament KS-1 upper receiver assembly (FDE)",

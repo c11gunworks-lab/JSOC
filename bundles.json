@@ -43,77 +43,77 @@
       ]
     },
         {
-      "key": "charge_kac_ks1_ambi.bundle",
+      "key": "ks1/charge_kac_ks1_ambi.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "charge_kac_ks1_ambi_black.bundle",
+      "key": "ks1/charge_kac_ks1_ambi_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "gas_block_kac_ks1_low_profile.bundle",
+      "key": "ks1/gas_block_kac_ks1_low_profile.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_15_black.bundle",
+      "key": "ks1/handguard_kac_urx6_15_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_15_fde.bundle",
+      "key": "ks1/handguard_kac_urx6_15_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_105_black.bundle",
+      "key": "ks1/handguard_kac_urx6_105_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_105_fde.bundle",
+      "key": "ks1/handguard_kac_urx6_105_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_1275_black.bundle",
+      "key": "ks1/handguard_kac_urx6_1275_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "handguard_kac_urx6_1275_fde.bundle",
+      "key": "ks1/handguard_kac_urx6_1275_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "mount_kac_mlok_to_pic.bundle",
+      "key": "ks1/mount_kac_mlok_to_pic.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "muzzle_kac_ks1_3prong.bundle",
+      "key": "ks1/muzzle_kac_ks1_3prong.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -122,14 +122,14 @@
       ]
     },
     {
-      "key": "reciever_kac_ks1_upper_black.bundle",
+      "key": "ks1/reciever_kac_ks1_upper_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
       ]
     },
     {
-      "key": "reciever_kac_ks1_upper_fde.bundle",
+      "key": "ks1/reciever_kac_ks1_upper_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
@@ -137,7 +137,7 @@
     },
     
     {
-      "key": "stock_kac_ks1_receiver_extension_fde.bundle",
+      "key": "ks1/stock_kac_ks1_receiver_extension_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/ks1-tex.bundle"
@@ -146,7 +146,7 @@
     
     
     {
-      "key": "weapon_kac_ks1_16_barrel.bundle",
+      "key": "ks1/weapon_kac_ks1_16_barrel.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_16_barrel_black.bundle",
+      "key": "ks1/weapon_kac_ks1_16_barrel_black.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_115_barrel.bundle",
+      "key": "ks1/weapon_kac_ks1_115_barrel.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_115_barrel_black.bundle",
+      "key": "ks1/weapon_kac_ks1_115_barrel_black.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_137_barrel.bundle",
+      "key": "ks1/weapon_kac_ks1_137_barrel.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_137_barrel_black.bundle",
+      "key": "ks1/weapon_kac_ks1_137_barrel_black.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_145_barrel.bundle",
+      "key": "ks1/weapon_kac_ks1_145_barrel.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_145_barrel_black.bundle",
+      "key": "ks1/weapon_kac_ks1_145_barrel_black.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_556x45_black_container.bundle",
+      "key": "ks1/weapon_kac_ks1_556x45_black_container.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "key": "weapon_kac_ks1_556x45_container.bundle",
+      "key": "ks1/weapon_kac_ks1_556x45_container.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -243,7 +243,7 @@
     },
     
     {
-      "key": "solgw_barrel_115.bundle",
+      "key": "solgw/solgw_barrel_115.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -253,7 +253,7 @@
     },
     
     {
-      "key": "solgw_barrel_145.bundle",
+      "key": "solgw/solgw_barrel_145.bundle",
       "dependencyKeys": [
         "assets/systems/effects/smoke.bundle",
         "shaders",
@@ -263,7 +263,7 @@
     },
     
     {
-      "key": "solgw_buffer.bundle",
+      "key": "solgw/solgw_buffer.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -271,7 +271,7 @@
     },
     
     {
-      "key": "solgw_charginghandle_black.bundle",
+      "key": "solgw/solgw_charginghandle_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -279,7 +279,7 @@
     },
    
     {
-      "key": "solgw_handguard_black_10.bundle",
+      "key": "solgw/solgw_handguard_black_10.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -287,7 +287,7 @@
     },
 
     {
-      "key": "solgw_handguard_black_12.bundle",
+      "key": "solgw/solgw_handguard_black_12.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -295,14 +295,14 @@
     },
 
     {
-      "key": "solgw_upper_black.bundle",
+      "key": "solgw/solgw_upper_black.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
       ]
     },
     {
-      "key": "weapon_solgw_black.bundle",
+      "key": "solgw/weapon_solgw_black.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -317,7 +317,7 @@
 
 
         {
-      "key": "solgw_charginghandle_tan.bundle",
+      "key": "solgw/solgw_charginghandle_tan.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -325,7 +325,7 @@
     },
    
     {
-      "key": "solgw_handguard_fde_10.bundle",
+      "key": "solgw/solgw_handguard_fde_10.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -333,7 +333,7 @@
     },
 
     {
-      "key": "solgw_handguard_fde_12.bundle",
+      "key": "solgw/solgw_handguard_fde_12.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -341,14 +341,14 @@
     },
 
     {
-      "key": "solgw_upper_fde.bundle",
+      "key": "solgw/solgw_upper_fde.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
       ]
     },
     {
-      "key": "weapon_solgw_fde.bundle",
+      "key": "solgw/weapon_solgw_fde.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -362,7 +362,7 @@
 
     
         {
-      "key": "solgw_charginghandle_grey.bundle",
+      "key": "solgw/solgw_charginghandle_grey.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -370,7 +370,7 @@
     },
    
     {
-      "key": "solgw_handguard_grey_10.bundle",
+      "key": "solgw/solgw_handguard_grey_10.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -378,7 +378,7 @@
     },
 
     {
-      "key": "solgw_handguard_gray_12.bundle",
+      "key": "solgw/solgw_handguard_gray_12.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -386,14 +386,14 @@
     },
 
     {
-      "key": "solgw_upper_grey.bundle",
+      "key": "solgw/solgw_upper_grey.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
       ]
     },
     {
-      "key": "weapon_solgw_grey.bundle",
+      "key": "solgw/weapon_solgw_grey.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -405,14 +405,14 @@
     },
 
             {
-      "key": "solgw_charginghandle_odg.bundle",
+      "key": "solgw/solgw_charginghandle_odg.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
       ]
     },
     {
-      "key": "solgw_charginghandle_bronze.bundle",
+      "key": "solgw/solgw_charginghandle_bronze.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -420,7 +420,7 @@
     },
    
     {
-      "key": "solgw_handguard_camo_10.bundle",
+      "key": "solgw/solgw_handguard_camo_10.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -428,7 +428,7 @@
     },
 
     {
-      "key": "solgw_handguard_camo_12.bundle",
+      "key": "solgw/solgw_handguard_camo_12.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
@@ -436,14 +436,14 @@
     },
 
     {
-      "key": "solgw_upper_camo.bundle",
+      "key": "solgw/solgw_upper_camo.bundle",
       "dependencyKeys": [
         "spy_shaders.bundle",
         "textures/solgw_textures.bundle"
       ]
     },
     {
-      "key": "weapon_solgw_camo.bundle",
+      "key": "solgw/weapon_solgw_camo.bundle",
       "dependencyKeys": [
         "assets/content/audio/blendoptions/assets.bundle",
         "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -454,35 +454,35 @@
       ]
     },
       {
-        "key": "6arc_bthp.bundle",
+        "key": "ammo/6arc_bthp.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle"
         ]
       },
       {
-        "key": "6arc_eld_vt.bundle",
+        "key": "ammo/6arc_eld_vt.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle"
         ]
       },
       {
-        "key": "6arc_eld_x.bundle",
+        "key": "ammo/6arc_eld_x.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle"
         ]
       },
       {
-        "key": "6arc_fmj.bundle",
+        "key": "ammo/6arc_fmj.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle"
         ]
       },
       {
-        "key": "6arc_barrel_16.bundle",
+        "key": "gfr/6arc_barrel_16.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -491,7 +491,7 @@
         ]
       },
       {
-        "key": "6arc_barrel_18.bundle",
+        "key": "gfr/6arc_barrel_18.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -500,7 +500,7 @@
         ]
       },
       {
-        "key": "6arc_barrel_20.bundle",
+        "key": "gfr/6arc_barrel_20.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -509,7 +509,7 @@
         ]
       },
       {
-        "key": "6arc_barrel_145.bundle",
+        "key": "gfr/6arc_barrel_145.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -518,99 +518,42 @@
         ]
       },
       {
-        "key": "6arc_mag_8rd.bundle",
+        "key": "gfr/6arc_mag_8rd.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-6arc-textures.bundle"
         ]
       },
       {
-        "key": "6arc_mag_15rd.bundle",
+        "key": "gfr/6arc_mag_15rd.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-6arc-textures.bundle"
         ]
       },
       {
-        "key": "6arc_mag_20rd.bundle",
+        "key": "gfr/6arc_mag_20rd.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-6arc-textures.bundle"
         ]
       },
       {
-        "key": "6arc_mag_30rd.bundle",
+        "key": "gfr/6arc_mag_30rd.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-6arc-textures.bundle"
         ]
       },
       {
-        "key": "6arc_mag_30rd_choccy.bundle",
+        "key": "gfr/6arc_mag_30rd_choccy.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-6arc-textures.bundle"
         ]
       },
       {
-        "key": "geissele_grip_a22_tan.bundle",
-        "dependencyKeys": [
-          "assets/commonassets/physics/physicsmaterials.bundle",
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "geissele_grip_black.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "geissele_grip_tan.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "geissele_stock_black.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "geissele_stock_tan.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "gfr_buffer_black.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "gfr_buffer_tan.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "gfr_gas_block.bundle",
-        "dependencyKeys": [
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "gfr_handguard_135_black.bundle",
+        "key": "gfr/geissele_grip_a22_tan.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -618,7 +561,56 @@
         ]
       },
       {
-        "key": "gfr_handguard_135_tan.bundle",
+        "key": "gfr/geissele_grip_black.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/geissele_grip_tan.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/geissele_stock_black.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/geissele_stock_tan.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/gfr_buffer_black.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/gfr_buffer_tan.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/gfr_gas_block.bundle",
+        "dependencyKeys": [
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/gfr_handguard_135_black.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -626,7 +618,7 @@
         ]
       },
       {
-        "key": "gfr_handguard_165_black.bundle",
+        "key": "gfr/gfr_handguard_135_tan.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -634,7 +626,7 @@
         ]
       },
       {
-        "key": "gfr_handguard_165_tan.bundle",
+        "key": "gfr/gfr_handguard_165_black.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -642,7 +634,15 @@
         ]
       },
       {
-        "key": "gfr_upper_black.bundle",
+        "key": "gfr/gfr_handguard_165_tan.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/gfr_upper_black.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -651,7 +651,7 @@
         ]
       },
       {
-        "key": "gfr_upper_tan.bundle",
+        "key": "gfr/gfr_upper_tan.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -660,14 +660,14 @@
         ]
       },
       {
-        "key": "geissele_charging.bundle",
+        "key": "gfrx/geissele_charging.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-x-textures.bundle"
         ]
       },
       {
-        "key": "gfrx_barrel_556.bundle",
+        "key": "gfrx/gfrx_barrel_556.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -676,37 +676,28 @@
         ]
       },
       {
-        "key": "gfrx_gas_block.bundle",
+        "key": "gfrx/gfrx_gas_block.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-x-textures.bundle"
         ]
       },
       {
-        "key": "gfrx_handguard_quad.bundle",
+        "key": "gfrx/gfrx_handguard_quad.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-x-textures.bundle"
         ]
       },
       {
-        "key": "gfrx_upper.bundle",
+        "key": "gfrx/gfrx_upper.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/gfr-x-textures.bundle"
         ]
       },
       {
-        "key": "hux_5_8_muzzle.bundle",
-        "dependencyKeys": [
-          "assets/systems/effects/smoke.bundle",
-          "shaders",
-          "spy_shaders.bundle",
-          "textures/gfr-6arc-textures.bundle"
-        ]
-      },
-      {
-        "key": "hux_5_8_sup_black.bundle",
+        "key": "parts/hux_5_8_muzzle.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -715,7 +706,7 @@
         ]
       },
       {
-        "key": "hux_5_8_sup_camo.bundle",
+        "key": "parts/hux_5_8_sup_black.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -724,7 +715,16 @@
         ]
       },
       {
-        "key": "weapon_gfr_6arc.bundle",
+        "key": "parts/hux_5_8_sup_camo.bundle",
+        "dependencyKeys": [
+          "assets/systems/effects/smoke.bundle",
+          "shaders",
+          "spy_shaders.bundle",
+          "textures/gfr-6arc-textures.bundle"
+        ]
+      },
+      {
+        "key": "gfr/weapon_gfr_6arc.bundle",
         "dependencyKeys": [
           "assets/content/audio/blendoptions/assets.bundle",
           "textures/gfr-6arc-textures.bundle",
@@ -737,7 +737,7 @@
         ]
       },
       {
-        "key": "weapon_gfr_6arc_fde.bundle",
+        "key": "gfr/weapon_gfr_6arc_fde.bundle",
         "dependencyKeys": [
           "assets/content/audio/blendoptions/assets.bundle",
           "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -749,7 +749,7 @@
         ]
       },
       {
-        "key": "weapon_gfr_x.bundle",
+        "key": "gfrx/weapon_gfr_x.bundle",
         "dependencyKeys": [
           "assets/content/audio/blendoptions/assets.bundle",
           "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -760,7 +760,7 @@
         ]
       },
       {
-        "key": "weapon_lmt_308.bundle",
+        "key": "lmt/weapon_lmt_308.bundle",
         "dependencyKeys": [
           "assets/content/audio/blendoptions/assets.bundle",
           "assets/content/weapons/additional_hands/client_assets.bundle",
@@ -771,7 +771,7 @@
         ]
       },
       {
-        "key": "lmt_barrel.bundle",
+        "key": "lmt/lmt_barrel.bundle",
         "dependencyKeys": [
           "assets/systems/effects/smoke.bundle",
           "shaders",
@@ -780,42 +780,42 @@
         ]
       },
       {
-        "key": "lmt_gasblock.bundle",
+        "key": "lmt/lmt_gasblock.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
         ]
       },
       {
-        "key": "lmt_charging_handle.bundle",
+        "key": "lmt/lmt_charging_handle.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
         ]
       },
       {
-        "key": "lmt_upper.bundle",
+        "key": "lmt/lmt_upper.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
         ]
       },
       {
-        "key": "magpul_dt_black.bundle",
+        "key": "lmt/magpul_dt_black.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
         ]
       },
       {
-        "key": "magpul_dt_fde.bundle",
+        "key": "lmt/magpul_dt_fde.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
         ]
       },
       {
-        "key": "chainsaw_handguard.bundle",
+        "key": "noveske/chainsaw_handguard.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -823,7 +823,7 @@
         ]
       },
       {
-        "key": "modlite_mlok.bundle",
+        "key": "noveske/modlite_mlok.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
@@ -833,7 +833,7 @@
         ]
       },
       {
-        "key": "skeet-ir.bundle",
+        "key": "parts/skeet-ir.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "assets/content/textures/holemanager/round_spec_mask.bundle",
@@ -845,7 +845,7 @@
         ]
       },
       {
-        "key": "noveske_115_barrel.bundle",
+        "key": "noveske/noveske_115_barrel.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "assets/systems/effects/smoke.bundle",
@@ -855,7 +855,7 @@
         ]
       },
       {
-        "key": "noveske_chainsaw_rec.bundle",
+        "key": "noveske/noveske_chainsaw_rec.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -863,7 +863,7 @@
         ]
       },
       {
-        "key": "noveske_charging_handle.bundle",
+        "key": "noveske/noveske_charging_handle.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "spy_shaders.bundle",
@@ -871,7 +871,7 @@
         ]
       },
       {
-        "key": "noveske_gen_3_rec.bundle",
+        "key": "noveske/noveske_gen_3_rec.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "shaders",
@@ -880,7 +880,7 @@
         ]
       },
       {
-        "key": "weapon_noveske_chainsaw.bundle",
+        "key": "noveske/weapon_noveske_chainsaw.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "assets/content/audio/blendoptions/assets.bundle",
@@ -892,7 +892,7 @@
         ]
       },
       {
-        "key": "weapon_noveske_gen1.bundle",
+        "key": "noveske/weapon_noveske_gen1.bundle",
         "dependencyKeys": [
           "assets/commonassets/physics/physicsmaterials.bundle",
           "assets/content/audio/blendoptions/assets.bundle",

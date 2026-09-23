@@ -4,15 +4,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Version>3.0.0</Version>
     <RootNamespace>JSOC</RootNamespace>
-    <AssemblyName>C11-JSOC</AssemblyName>
+    <AssemblyName>JSOC</AssemblyName>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <!-- Path to final mod folder -->
+  <!-- Paths -->
   <PropertyGroup>
-    <SptModsDir>C:\SPT4.1\SPT_Runtime\user\mods\blackandblue</SptModsDir>
+    <!-- One place to change when SPT moves. Override on the command line with:
+         dotnet build -c Release -p:SptDir=D:\SomewhereElse -->
+    <SptDir Condition="'$(SptDir)' == ''">C:\SPT4.1</SptDir>
+    <SptManagedDir>$(SptDir)\EscapeFromTarkov_Data\Managed</SptManagedDir>
+    <SptModsDir>$(SptDir)\SPT_Runtime\user\mods\JSOC</SptModsDir>
+
     <!-- Absolute paths to source folders (all under Resources\) -->
     <ResourceSourceDir>$(MSBuildProjectDirectory)\Resources</ResourceSourceDir>
     <DbSourceDir>$(ResourceSourceDir)\db</DbSourceDir>
@@ -45,6 +50,7 @@
   <!-- COPY after build -->
   <Target Name="CopyAllModFiles" AfterTargets="Build">
     <Message Text=" Copying mod files to $(SptModsDir)" Importance="High" />
+    <Message Text="   Assembly        = $(TargetFileName)" Importance="High" />
     <Message Text="   DbSourceDir     = $(DbSourceDir)" Importance="High" />
     <Message Text="   DbFiles         = @(DbFiles->Count())" Importance="High" />
     <Message Text="   BundleRig       = @(BundleRig->Count())" Importance="High" />
@@ -53,8 +59,9 @@
     <!-- Recreate main folders -->
     <MakeDir Directories="$(SptModsDir)" />
 
-    <!-- Copy DLL -->
-    <Copy SourceFiles="$(TargetDir)$(ProjectName).dll" DestinationFolder="$(SptModsDir)" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
+    <!-- Copy DLL. TargetPath follows AssemblyName, so renaming the assembly
+         can never break this the way $(ProjectName).dll did. -->
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SptModsDir)" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
 
     <!-- Copy DB JSONs -->
     <Copy SourceFiles="@(DbFiles)" DestinationFiles="@(DbFiles->'$(SptModsDir)\db\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" OverwriteReadOnlyFiles="true" />
@@ -71,13 +78,16 @@
     <Message Text="Copy complete!" Importance="High" />
   </Target>
 
+  <!-- ExcludeAssets="runtime" keeps the compile-time reference but stops the
+       DLL being copied into bin and shipped with the mod. -->
   <ItemGroup>
-    <PackageReference Include="WTT-ServerCommonLib" Version="3.0.6" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="3.0.6" ExcludeAssets="runtime" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\..\..\SPT4.1\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(SptManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 </Project>

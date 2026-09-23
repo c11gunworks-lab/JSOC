@@ -9,10 +9,10 @@ namespace JSOC;
 
 [Injectable(TypePriority = OnLoadOrder.Preload + 2), UsedImplicitly]
 
-public class JSOC(
+public class Jsoc(
     
     WTTServerCommonLib.WTTServerCommonLib wttServerCommonLib,
-    ILogger<JSOC> log
+    ILogger<Jsoc> log
     ) : IOnLoad
 {
     public async Task OnLoadAsync(CancellationToken cancellationToken)
@@ -21,13 +21,11 @@ public class JSOC(
        await wttServerCommonLib.CustomItemServiceExtended.CreateCustomItems(assembly);
        foreach (var name in assembly.GetManifestResourceNames())
        {
-           log.LogDebug("[JSOC-SWR] Embedded resource: {Res}", name);
+           log.LogDebug("[JSOC] Embedded resource: {Res}", name);
        }
-       await wttServerCommonLib.CustomQuestService.CreateCustomQuests(assembly);
-       await wttServerCommonLib.CustomQuestZoneService.CreateCustomQuestZones(assembly);
        await wttServerCommonLib.CustomLocaleService.CreateCustomLocales(assembly);
        await wttServerCommonLib.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
-       log.LogInformation("Loaded Spy's JSOC-SWR-FDK. Pretty CAG eh?");
+       log.LogInformation("The JSOC Service Weapon Replacement Program has now begun.");
 
     }
     

@@ -5,9 +5,9 @@
     "handbookParentId": "5b5f78fc86f77409407a7f90",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Prefab": {
-        "path": "weapon_kac_ks1_556x45_container.bundle",
+        "path": "ks1/weapon_kac_ks1_556x45_container.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -249,7 +249,7 @@
     },
     "locales": {
       "en": {
-        "name": "Knight's Armament KS-1 5.56x45 assault rifle lower receiver (FDE)",
+        "name": "Knight's Armament KS-1 5.56x45 assault rifle (FDE)",
         "shortName": "KS-1 FDE",
         "description": "The custom lower receiver of the Knight's Armament Company KS-1 5.56x45 carbine, finished in Flat Dark Earth (FDE). Engineered with fully ambidextrous, machined-in controls including dual magazine and bolt releases, this frame operates as the core receiver extension host for the premium L403A1 weapon system."
       }
@@ -417,7 +417,7 @@
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.35,
       "Ergonomics": 2,
       "Recoil": -1,
@@ -678,7 +678,7 @@
         }
       ],
       "Prefab": {
-        "path": "reciever_kac_ks1_upper_fde.bundle",
+        "path": "ks1/reciever_kac_ks1_upper_fde.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -727,11 +727,11 @@
     "handbookParentId": "5b5f751486f77447ec5d770c",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.05,
       "Ergonomics": 2,
       "Prefab": {
-        "path": "charge_kac_ks1_ambi.bundle",
+        "path": "ks1/charge_kac_ks1_ambi.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -780,7 +780,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.62,
       "Ergonomics": 1,
       "Recoil": 1,
@@ -859,7 +859,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_115_barrel.bundle",
+        "path": "ks1/weapon_kac_ks1_115_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -906,7 +906,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.72,
       "Ergonomics": 0,
       "Recoil": -2,
@@ -985,7 +985,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_137_barrel.bundle",
+        "path": "ks1/weapon_kac_ks1_137_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1032,7 +1032,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.78,
       "Ergonomics": -1,
       "Recoil": -3,
@@ -1111,7 +1111,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_145_barrel.bundle",
+        "path": "ks1/weapon_kac_ks1_145_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1158,7 +1158,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.86,
       "Ergonomics": -2,
       "Recoil": -5,
@@ -1237,7 +1237,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_16_barrel.bundle",
+        "path": "ks1/weapon_kac_ks1_16_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1284,7 +1284,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.28,
       "Ergonomics": 11,
       "Recoil": -1,
@@ -1577,7 +1577,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_105_fde.bundle",
+        "path": "ks1/handguard_kac_urx6_105_fde.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1624,7 +1624,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.34,
       "Ergonomics": 13,
       "Recoil": -1.5,
@@ -1917,7 +1917,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_1275_fde.bundle",
+        "path": "ks1/handguard_kac_urx6_1275_fde.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1964,7 +1964,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.4,
       "Ergonomics": 15,
       "Recoil": -2,
@@ -2256,7 +2256,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_15_fde.bundle",
+        "path": "ks1/handguard_kac_urx6_15_fde.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

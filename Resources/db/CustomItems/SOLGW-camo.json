@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_solgw_camo.bundle",
+        "path": "solgw/weapon_solgw_camo.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -772,7 +772,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_upper_camo.bundle",
+        "path": "solgw/solgw_upper_camo.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -824,7 +824,7 @@
       "Weight": 0.05,
       "Ergonomics": 3,
       "Prefab": {
-        "path": "solgw_charginghandle_odg.bundle",
+        "path": "solgw/solgw_charginghandle_odg.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1166,7 +1166,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_handguard_camo_10.bundle",
+        "path": "solgw/solgw_handguard_camo_10.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1507,7 +1507,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_handguard_camo_12.bundle",
+        "path": "solgw/solgw_handguard_camo_12.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_gfr_6arc.bundle",
+        "path": "gfr/weapon_gfr_6arc.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -566,7 +566,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_upper_black.bundle",
+        "path": "gfr/gfr_upper_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -683,7 +683,7 @@
         }
       ],
       "Prefab": {
-        "path": "6arc_barrel_145.bundle",
+        "path": "gfr/6arc_barrel_145.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -800,7 +800,7 @@
         }
       ],
       "Prefab": {
-        "path": "6arc_barrel_16.bundle",
+        "path": "gfr/6arc_barrel_16.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -917,7 +917,7 @@
         }
       ],
       "Prefab": {
-        "path": "6arc_barrel_18.bundle",
+        "path": "gfr/6arc_barrel_18.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1034,7 +1034,7 @@
         }
       ],
       "Prefab": {
-        "path": "6arc_barrel_20.bundle",
+        "path": "gfr/6arc_barrel_20.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1373,7 +1373,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_handguard_135_black.bundle",
+        "path": "gfr/gfr_handguard_135_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1714,7 +1714,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_handguard_165_black.bundle",
+        "path": "gfr/gfr_handguard_165_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1815,7 +1815,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_buffer_black.bundle",
+        "path": "gfr/gfr_buffer_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1866,7 +1866,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "geissele_stock_black.bundle",
+        "path": "gfr/geissele_stock_black.bundle",
         "rcid": ""
       },
       "Width": 2,
@@ -1921,7 +1921,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "geissele_grip_black.bundle",
+        "path": "gfr/geissele_grip_black.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1983,7 +1983,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "gfr_gas_block.bundle",
+        "path": "gfr/gfr_gas_block.bundle",
         "rcid": ""
       },
       "Slots": [],

@@ -8,7 +8,7 @@
       "ExaminedByDefault": true,
       "Weight": 0.05,
       "Prefab": {
-        "path": "noveske_charging_handle.bundle",
+        "path": "noveske/noveske_charging_handle.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -113,7 +113,7 @@
       "MaxRepairDegradation": 0.03,
       "MaxRepairKitDegradation": 0.025,
       "Prefab": {
-        "path": "weapon_noveske_chainsaw.bundle",
+        "path": "noveske/weapon_noveske_chainsaw.bundle",
         "rcid": ""
       },
       "RecoilAngle": 90,
@@ -670,7 +670,7 @@
         }
       ],
       "Prefab": {
-        "path": "noveske_chainsaw_rec.bundle",
+        "path": "noveske/noveske_chainsaw_rec.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -905,7 +905,7 @@
         }
       ],
       "Prefab": {
-        "path": "chainsaw_handguard.bundle",
+        "path": "noveske/chainsaw_handguard.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1034,7 +1034,7 @@
         }
       ],
       "Prefab": {
-        "path": "noveske_115_barrel.bundle",
+        "path": "noveske/noveske_115_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_gfr_6arc_fde.bundle",
+        "path": "gfr/weapon_gfr_6arc_fde.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -566,7 +566,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_upper_tan.bundle",
+        "path": "gfr/gfr_upper_tan.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -906,7 +906,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_handguard_165_tan.bundle",
+        "path": "gfr/gfr_handguard_165_tan.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1247,7 +1247,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_handguard_135_tan.bundle",
+        "path": "gfr/gfr_handguard_135_tan.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1348,7 +1348,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfr_buffer_tan.bundle",
+        "path": "gfr/gfr_buffer_tan.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1399,7 +1399,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "geissele_stock_tan.bundle",
+        "path": "gfr/geissele_stock_tan.bundle",
         "rcid": ""
       },
       "Width": 2,
@@ -1454,7 +1454,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "geissele_grip_tan.bundle",
+        "path": "gfr/geissele_grip_tan.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1516,7 +1516,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "geissele_grip_a22_tan.bundle",
+        "path": "gfr/geissele_grip_a22_tan.bundle",
         "rcid": ""
       },
       "Width": 1,

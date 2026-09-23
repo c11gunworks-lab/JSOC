@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_bthp.bundle",
+        "path": "ammo/6arc_bthp.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -116,7 +116,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_fmj.bundle",
+        "path": "ammo/6arc_fmj.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -226,7 +226,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_vt.bundle",
+        "path": "ammo/6arc_eld_vt.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -336,7 +336,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_x.bundle",
+        "path": "ammo/6arc_eld_x.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -446,7 +446,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_x.bundle",
+        "path": "ammo/6arc_eld_x.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -556,7 +556,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_x.bundle",
+        "path": "ammo/6arc_eld_x.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -666,7 +666,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_fmj.bundle",
+        "path": "ammo/6arc_fmj.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -776,7 +776,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_vt.bundle",
+        "path": "ammo/6arc_eld_vt.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -886,7 +886,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_eld_vt.bundle",
+        "path": "ammo/6arc_eld_vt.bundle",
         "rcid": ""
       },
       "Caliber": "Caliber6ARC",
@@ -996,7 +996,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_mag_8rd.bundle",
+        "path": "gfr/6arc_mag_8rd.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1082,7 +1082,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_mag_15rd.bundle",
+        "path": "gfr/6arc_mag_15rd.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1168,7 +1168,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "6arc_mag_20rd.bundle",
+        "path": "gfr/6arc_mag_20rd.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1254,7 +1254,7 @@
     "overrideProperties": {
       "ExaminedByDefault": false,
       "Prefab": {
-        "path": "6arc_mag_30rd.bundle",
+        "path": "gfr/6arc_mag_30rd.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1341,7 +1341,7 @@
     "overrideProperties": {
       "ExaminedByDefault": false,
       "Prefab": {
-        "path": "6arc_mag_30rd_choccy.bundle",
+        "path": "gfr/6arc_mag_30rd_choccy.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -1428,7 +1428,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "hux_5_8_muzzle.bundle",
+        "path": "parts/hux_5_8_muzzle.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -1510,7 +1510,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "hux_5_8_sup_black.bundle",
+        "path": "parts/hux_5_8_sup_black.bundle",
         "rcid": ""
       },
       "ConflictingItems": [],
@@ -1585,7 +1585,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "hux_5_8_sup_camo.bundle",
+        "path": "parts/hux_5_8_sup_camo.bundle",
         "rcid": ""
       },
       "ConflictingItems": [],

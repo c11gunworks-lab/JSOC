@@ -46,7 +46,7 @@
       ],
       
       "Prefab": {
-        "path": "weapon_noveske_gen1.bundle",
+        "path": "noveske/weapon_noveske_gen1.bundle",
         "rcid": ""
       },
      
@@ -600,7 +600,7 @@
         }
       ],
       "Prefab": {
-        "path": "noveske_gen_3_rec.bundle",
+        "path": "noveske/noveske_gen_3_rec.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -745,7 +745,7 @@
         }
       ],
       "Prefab": {
-        "path": "noveske_115_barrel.bundle",
+        "path": "noveske/noveske_115_barrel.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -797,7 +797,7 @@
       "ConflictingItems": [],
       "Slots": [],
       "Prefab": {
-        "path": "modlite_mlok.bundle",
+        "path": "noveske/modlite_mlok.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

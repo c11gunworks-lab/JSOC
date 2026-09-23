@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_lmt_308.bundle",
+        "path": "lmt/weapon_lmt_308.bundle",
         "rcid": ""
       },
       "Chambers": [
@@ -224,7 +224,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "lmt_upper.bundle",
+        "path": "lmt/lmt_upper.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -553,7 +553,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "lmt_barrel.bundle",
+        "path": "lmt/lmt_barrel.bundle",
         "rcid": ""
       },
       "Weight": 0.95,
@@ -673,7 +673,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "lmt_gasblock.bundle",
+        "path": "lmt/lmt_gasblock.bundle",
         "rcid": ""
       },
       "Weight": 0.06,
@@ -723,7 +723,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "lmt_charging_handle.bundle",
+        "path": "lmt/lmt_charging_handle.bundle",
         "rcid": ""
       },
       "Weight": 0.05,
@@ -774,7 +774,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "magpul_dt_black.bundle",
+        "path": "lmt/magpul_dt_black.bundle",
         "rcid": ""
       },
       "Weight": 0.23,
@@ -828,7 +828,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "magpul_dt_fde.bundle",
+        "path": "lmt/magpul_dt_fde.bundle",
         "rcid": ""
       },
       "Weight": 0.23,

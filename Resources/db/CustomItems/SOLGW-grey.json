@@ -6,7 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "weapon_solgw_grey.bundle",
+        "path": "solgw/weapon_solgw_grey.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -664,7 +664,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_upper_grey.bundle",
+        "path": "solgw/solgw_upper_grey.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -716,7 +716,7 @@
       "Weight": 0.05,
       "Ergonomics": 3,
       "Prefab": {
-        "path": "solgw_charginghandle_grey.bundle",
+        "path": "solgw/solgw_charginghandle_grey.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1058,7 +1058,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_handguard_grey_10.bundle",
+        "path": "solgw/solgw_handguard_grey_10.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1399,7 +1399,7 @@
         }
       ],
       "Prefab": {
-        "path": "solgw_handguard_gray_12.bundle",
+        "path": "solgw/solgw_handguard_gray_12.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

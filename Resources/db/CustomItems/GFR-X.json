@@ -7,7 +7,7 @@
       "ExaminedByDefault": true,
       "Weight": 0.05,
       "Prefab": {
-        "path": "geissele_charging.bundle",
+        "path": "gfrx/geissele_charging.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -112,7 +112,7 @@
       "MaxRepairDegradation": 0.03,
       "MaxRepairKitDegradation": 0.025,
       "Prefab": {
-        "path": "weapon_gfr_x.bundle",
+        "path": "gfrx/weapon_gfr_x.bundle",
         "rcid": ""
       },
       "RecoilAngle": 90,
@@ -665,7 +665,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfrx_upper.bundle",
+        "path": "gfrx/gfrx_upper.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -946,7 +946,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfrx_handguard_quad.bundle",
+        "path": "gfrx/gfrx_handguard_quad.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1075,7 +1075,7 @@
         }
       ],
       "Prefab": {
-        "path": "gfrx_barrel_556.bundle",
+        "path": "gfrx/gfrx_barrel_556.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1125,7 +1125,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "gfr_gas_block.bundle",
+        "path": "gfrx/gfr_gas_block.bundle",
         "rcid": ""
       },
       "Slots": [],

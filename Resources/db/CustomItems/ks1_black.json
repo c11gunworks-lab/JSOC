@@ -5,9 +5,9 @@
     "handbookParentId": "5b5f78fc86f77409407a7f90",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Prefab": {
-        "path": "weapon_kac_ks1_556x45_black_container.bundle",
+        "path": "ks1/weapon_kac_ks1_556x45_black_container.bundle",
         "rcid": ""
       },
       "Width": 1,
@@ -249,7 +249,7 @@
     },
     "locales": {
       "en": {
-        "name": "Knight's Armament KS-1 5.56x45 assault rifle lower receiver (Black)",
+        "name": "Knight's Armament KS-1 5.56x45 assault rifle (Black)",
         "shortName": "KS-1 Black",
         "description": "Knight's Armament Company developed the KS-1 5.56x45 carbine to set a new standard in assault platforms. Featuring completely ambidextrous, machined-in controls and built specifically around KAC's highly efficient, proprietary mechanics rather than standard AR-15 parts, this receiver serves as the foundation for modern military operations."
       }
@@ -418,10 +418,10 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Prefab": {
-        "path": "gas_block_kac_ks1_low_profile.bundle",
+        "path": "ks1/gas_block_kac_ks1_low_profile.bundle",
         "rcid": ""
       },
-      "BackgroundColor": "blue",
+      
       "Width": 1,
       "Height": 1,
       "Weight": 0.15,
@@ -473,7 +473,7 @@
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.35,
       "Ergonomics": 2,
       "Recoil": -1,
@@ -734,7 +734,7 @@
         }
       ],
       "Prefab": {
-        "path": "reciever_kac_ks1_upper_black.bundle",
+        "path": "ks1/reciever_kac_ks1_upper_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -783,11 +783,11 @@
     "handbookParentId": "5b5f751486f77447ec5d770c",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.05,
       "Ergonomics": 2,
       "Prefab": {
-        "path": "charge_kac_ks1_ambi_black.bundle",
+        "path": "ks1/charge_kac_ks1_ambi_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -836,7 +836,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.62,
       "Ergonomics": 1,
       "Recoil": 1,
@@ -915,7 +915,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_115_barrel_black.bundle",
+        "path": "ks1/weapon_kac_ks1_115_barrel_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -962,7 +962,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.72,
       "Ergonomics": 0,
       "Recoil": -2,
@@ -1041,7 +1041,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_137_barrel_black.bundle",
+        "path": "ks1/weapon_kac_ks1_137_barrel_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1088,7 +1088,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.78,
       "Ergonomics": -1,
       "Recoil": -3,
@@ -1167,7 +1167,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_145_barrel_black.bundle",
+        "path": "ks1/weapon_kac_ks1_145_barrel_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1214,7 +1214,7 @@
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.86,
       "Ergonomics": -2,
       "Recoil": -5,
@@ -1293,7 +1293,7 @@
         }
       ],
       "Prefab": {
-        "path": "weapon_kac_ks1_16_barrel_black.bundle",
+        "path": "ks1/weapon_kac_ks1_16_barrel_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1340,7 +1340,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.28,
       "Ergonomics": 11,
       "Recoil": -1,
@@ -1633,7 +1633,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_105_black.bundle",
+        "path": "ks1/handguard_kac_urx6_105_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -1680,7 +1680,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.34,
       "Ergonomics": 13,
       "Recoil": -1.5,
@@ -1973,7 +1973,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_1275_black.bundle",
+        "path": "ks1/handguard_kac_urx6_1275_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -2020,7 +2020,7 @@
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.4,
       "Ergonomics": 15,
       "Recoil": -2,
@@ -2312,7 +2312,7 @@
         }
       ],
       "Prefab": {
-        "path": "handguard_kac_urx6_15_black.bundle",
+        "path": "ks1/handguard_kac_urx6_15_black.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -2359,7 +2359,7 @@
     "handbookParentId": "5b5f755f86f77447ec5d770e",
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "BackgroundColor": "blue",
+      
       "Weight": 0.02,
       "Ergonomics": 1,
       "Slots": [
@@ -2402,7 +2402,7 @@
         }
       ],
       "Prefab": {
-        "path": "mount_kac_mlok_to_pic.bundle",
+        "path": "ks1/mount_kac_mlok_to_pic.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -2504,7 +2504,7 @@
         }
       ],
       "Prefab": {
-        "path": "stock_kac_ks1_receiver_extension_fde.bundle",
+        "path": "ks1/stock_kac_ks1_receiver_extension_fde.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,
@@ -2578,7 +2578,7 @@
         }
       ],
       "Prefab": {
-        "path": "muzzle_kac_ks1_3prong.bundle",
+        "path": "ks1/muzzle_kac_ks1_3prong.bundle",
         "rcid": ""
       },
       "CanSellOnRagfair": true,

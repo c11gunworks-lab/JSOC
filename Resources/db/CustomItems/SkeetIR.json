@@ -16,8 +16,7 @@
           0.65
         ]
       ],
-      "CalibrationDistances":
-      [
+      "CalibrationDistances": [
         [
           50,
           100,
@@ -28,7 +27,7 @@
       "ModesCount": [
         2
       ],
-      "Zooms":[
+      "Zooms": [
         [
           1,
           1
@@ -39,13 +38,13 @@
     },
     "locales": {
       "en": {
-        "name": "Eotech EXPS3 w/ Trijicon Skeet IR",
-        "shortName": "EXPS Skeet",
-        "description": "Testing"
+        "name": "EOTech EXPS3 (Multicam Black) on LaRue riser w/ Trijicon SkeetIR",
+        "shortName": "EXPS3 SkeetIR",
+        "description": "An EOTech EXPS3 holographic sight finished in Multicam Black Cerakote, mounted on a LaRue Tactical Picatinny riser to bring the reticle up to a comfortable heads-up position. A Trijicon SkeetIR thermal clip-on sits in front on a flip-to-side mount, swinging into line behind the holo when you need to see heat and folding out of the way when you don't."
       }
     },
-    "fleaPriceRoubles": 4500000,
-    "handbookPriceRoubles": 4250000,
+    "fleaPriceRoubles": 375000,
+    "handbookPriceRoubles": 350000,
     "addtoBots": false,
     "addtoSpecialSlots": false,
     "addtoModSlots": true,

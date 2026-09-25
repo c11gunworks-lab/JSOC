@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>3.0.0</Version>
+
     <RootNamespace>JSOC</RootNamespace>
     <AssemblyName>JSOC</AssemblyName>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
@@ -33,7 +33,35 @@
     <BundleFiles Include="$(BundleSourceDir)\**\*" />
     <BundleManifest Include="$(MSBuildProjectDirectory)\bundles.json" />
   </ItemGroup>
+  <!-- Reads version.txt, stamps it into the DLL, then bumps the patch for next time.
+        Release builds only, so Debug test builds don't burn version numbers. -->
+  <PropertyGroup>
+    <VersionFile>$(MSBuildProjectDirectory)\version.txt</VersionFile>
+  </PropertyGroup>
 
+  <Target Name="ReadVersionFile" BeforeTargets="BeforeBuild" Condition="'$(Configuration)' == 'Release'">
+    <ReadLinesFromFile File="$(VersionFile)">
+      <Output TaskParameter="Lines" PropertyName="_FileVersion" />
+    </ReadLinesFromFile>
+    <PropertyGroup>
+      <Version>$(_FileVersion.Trim())</Version>
+      <AssemblyVersion>$(Version)</AssemblyVersion>
+      <FileVersion>$(Version)</FileVersion>
+      <InformationalVersion>$(Version)</InformationalVersion>
+    </PropertyGroup>
+    <Message Importance="high" Text="Building version $(Version)" />
+  </Target>
+
+  <!-- AfterTargets="Build" only runs if the build succeeded, so a failed build doesn't bump -->
+  <Target Name="BumpPatch" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <PropertyGroup>
+      <_Major>$([System.Version]::Parse($(Version)).Major)</_Major>
+      <_Minor>$([System.Version]::Parse($(Version)).Minor)</_Minor>
+      <_Patch>$([MSBuild]::Add($([System.Version]::Parse($(Version)).Build), 1))</_Patch>
+    </PropertyGroup>
+    <WriteLinesToFile File="$(VersionFile)" Lines="$(_Major).$(_Minor).$(_Patch)" Overwrite="true" />
+  </Target>
+  
   <!-- CLEAN before build -->
   <Target Name="CleanModFolder" BeforeTargets="Build">
     <Message Text=" Cleaning $(SptModsDir)" Importance="High" />

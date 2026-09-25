@@ -255,7 +255,7 @@
       }
     },
     "fleaPriceRoubles": 330000,
-    "handbookPriceRoubles": 330000,
+    "handbookPriceRoubles": 45000,
     "addtoBots": false,
     "addtoSpecialSlots": false,
     "addtoModSlots": false,
@@ -748,7 +748,7 @@
       }
     },
     "fleaPriceRoubles": 85000,
-    "handbookPriceRoubles": 90000,
+    "handbookPriceRoubles": 45000,
     "addtoBots": false,
     "addtoSpecialSlots": false,
     "addtoModSlots": true,
